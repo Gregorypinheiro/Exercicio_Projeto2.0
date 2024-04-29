@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #272727;
+    padding-top: 100px;
+}
+
+h1{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 8;
+    -webkit-text-stroke-color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.cadastro{
+    border: 3px solid #B1B0B0;
+    width: 782px;
+    height: 404px;
+    border-radius: 6px;
+    background: url('images/5d5a341e70c60f6a56b11e8470e9e216.jfif') lightgray 50% / cover no-repeat;
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: normal;
+    box-shadow: 0px 0px 20px rgba(0,0,0,075);
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(140%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+::placeholder {
+    color:#D9D9D9;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #071731;
+}
+
+input{
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+button{
+    width: 341px;
+    height: 97px;
+    border-radius: 6px;
+    background: #91E88F;
+    color: #071731;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    color: #071731;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #000;
+    background-color: rgb(52, 153, 74);
+}
