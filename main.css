@@ -6,7 +6,7 @@
 
 body {
     background-color: #272727;
-    padding-top: 100px;
+    padding: 30px 329px 30px 329px;
 }
 
 h1{
@@ -22,7 +22,7 @@ h1{
 
 .cadastro{
     border: 3px solid #B1B0B0;
-    width: 782px;
+    
     height: 404px;
     border-radius: 6px;
     background: url('images/5d5a341e70c60f6a56b11e8470e9e216.jfif') lightgray 50% / cover no-repeat;
