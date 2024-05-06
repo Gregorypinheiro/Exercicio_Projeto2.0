@@ -105,12 +105,14 @@ button:hover{
 table th{
     background-color: #B1B0B0;
     border-bottom: 2px solid #000;
-    padding: 25px 130px;
+    padding: 20px 130px;
 }
 
 table td{
     background-color: #D9D9D9;
-    padding: 10px 130px ;
+    font-family: inter;
+    text-align: center;
+    font-size: 20px;
 }
 
 table {
